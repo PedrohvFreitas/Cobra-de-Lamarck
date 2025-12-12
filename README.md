@@ -1,5 +1,4 @@
-# Sistemas Evolutivos: Cobra de Lamarck (EVOL_project)
-
+# Sistemas Evolutivos: Cobra de Lamarck 
 Este repositório contém o projeto final da disciplina **SSC0713: Sistemas Evolutivos Aplicados à Robótica**, ministrada pelo Prof. Dr. Eduardo do Valle Simões, na Universidade de São Paulo (USP).
 
 O projeto implementa um agente autônomo (uma "Cobra") capaz de aprender a jogar o clássico Snake Game utilizando uma **abordagem híbrida de Inteligência Artificial**, que combina **Aprendizado por Reforço (Deep Q-Learning)** para aprendizado intra-vida e **Algoritmos Genéticos (GA)** para evolução entre gerações.
