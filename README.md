@@ -91,7 +91,7 @@ python cuda_agent.py
 ```
 # Autores
 
-Eduardo Henrique Wenceslau Santana	15448734
-Pedro Henrique Vieira de Freitas	15652829
-Tiago Yuzo Yoshida Simão	15642202
-Vinicius de Oliveira Ribeiro	15498122
+* Eduardo Henrique Wenceslau Santana - N° USP: 15448734
+* Pedro Henrique Vieira de Freitas - N° USP: 15652829
+* Tiago Yuzo Yoshida Simão - N° USP: 15642202
+* Vinicius de Oliveira Ribeiro - N° USP: 15498122
