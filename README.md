@@ -90,10 +90,8 @@ Execute o seguinte comando no terminal:
 python cuda_agent.py
 ```
 # Autores
+
 Eduardo Henrique Wenceslau Santana	15448734
-
 Pedro Henrique Vieira de Freitas	15652829
-
 Tiago Yuzo Yoshida Simão	15642202
-
 Vinicius de Oliveira Ribeiro	15498122
