@@ -185,10 +185,7 @@ def run_batch_of_agents(batch_agents, epoch):
 def train():
     num_agents = 10
     agents = [Agent() for _ in range(num_agents)]
-    #for i in range(len(agents)):
-    #    agents[i].model.load_state_dict(torch.load(f"/home/pedro/Documents/Sistemas Evolutivos/EVOL_project/hope_models/best_model_{i}_450.pt"))
-    #    print(i, type(agents[i]))
-    
+
     epoch = 0
     record = 0
     mutation_percentage = 0.2
@@ -212,7 +209,7 @@ def train():
         if epoch % 50 == 0 and epoch != 0:
             for i, agent in enumerate(agents):
                 state_dict = agent.model.state_dict()
-                #torch.save(state_dict, f"/home/pedro/Documents/Sistemas Evolutivos/EVOL_project/hope_models/best_model_{i}_{epoch + 400}.pt")
+                torch.save(state_dict, f"/home/pedro/Documents/Sistemas Evolutivos/EVOL_project/models/model_{i}_{epoch}.pt")
 
         epoch += 1
 
