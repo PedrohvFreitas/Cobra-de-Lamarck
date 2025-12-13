@@ -158,7 +158,6 @@ def train():
 
                     if score > record:
                         record = score
-                        agent.model.save()
 
                     print(f'Agent: {i}, Game: {agent.n_games}, Score: {score}, Epoch: {epoch}')
 
